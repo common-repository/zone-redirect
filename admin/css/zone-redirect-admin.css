@@ -1,0 +1,97 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.zone-title {
+  display: inline-block;
+}
+
+.zone-version {
+  font-size: 12px;
+  font-weight: normal;
+  color: #7a919e;
+  margin: 10px 0;
+  line-height: 1.7;
+  max-width: 840px;
+}
+.zone-title-short {
+  font-size: 18px;
+  border-bottom: 1px solid #cccccc;
+  display: table;
+  padding-right: 50px;
+  padding-left: 3px;
+  padding-bottom: 3px;
+}
+.zone-title-sub {
+  font-size: 18px;
+}
+
+.zone-card {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.zone-home .card {
+  margin: 20px auto 0;
+  width: 50%;
+}
+
+.zone-home .card label {
+  float: left !important;
+}
+
+.btn {
+  font-size: 13px;
+  line-height: 26px;
+  height: 28px;
+  margin: 0;
+  padding: 0 10px 1px !important;
+}
+
+
+.pull-r {
+  float: right;
+}
+
+.pull-l {
+  float: left;
+}
+
+
+.toggle .toggle-group label.btn:hover {
+  color: #000 !important;
+}
+
+p .button {
+    vertical-align: baseline;
+}
+
+/* Style the tab */
+.tab-content .tab-pane {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tab-content .tab-pane.active {
+  background: #fff;
+  padding-bottom: 15px;
+}
+
+a:focus {
+  box-shadow: none;
+}
+
+.card {
+  padding: .7em 2em 1em !important;
+  max-width: 100% !important;
+}
+
+label span {
+  color: red;
+}
+
+label strong {
+  font-size: 14px;
+  font-weight: 600;
+}
